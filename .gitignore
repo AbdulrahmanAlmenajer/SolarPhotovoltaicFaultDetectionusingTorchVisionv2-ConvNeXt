@@ -1,0 +1,83 @@
+# ==============================================================================
+# Git Ignore for Solar Photovoltaic Module Fault Detection Project
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Large Dataset Directories & Archives (Keep Repo Lightweight)
+2020-02-14_InfraredSolarModules/
+solar_data/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Model Weights and Large Arrays (>100MB exceeds GitHub limits)
+*.pth
+*.pt
+*.bin
+*.h5
+*.keras
+*.onnx
+*.tflite
+*.npz
+*.npy
+
+# Temporary checkpoint folders
+checkpoints/
+checkpoints_*/
+checkpoints_v2/
+checkpoints_dinov2/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
